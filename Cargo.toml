@@ -1,0 +1,7 @@
+[package]
+name = "rwwf"
+version = "0.1.0"
+authors = ["Mike Cooper <mythmon@gmail.com>"]
+
+[dependencies]
+petgraph = "0.4.2"
