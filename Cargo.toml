@@ -5,3 +5,6 @@ authors = ["Mike Cooper <mythmon@gmail.com>"]
 
 [dependencies]
 petgraph = "0.4.2"
+docopt = "0.7.0"
+rustc-serialize = "0.3.22"
+permutohedron = "0.2.2"
