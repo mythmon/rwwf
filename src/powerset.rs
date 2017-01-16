@@ -21,7 +21,6 @@ pub fn powerset<T>(els: &[T]) -> Vec<Vec<T>>
 mod tests {
     use super::powerset;
 
-
     #[test]
     fn test_empty_set() {
         let s: Vec<i32> = Vec::new();

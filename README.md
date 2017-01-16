@@ -1,7 +1,15 @@
 ```
-$ cargo run --bin $TOOL -- $ARGS
+$ cargo run --release --bin $TOOL -- $ARGS
 ```
 
-Available tools
+or
+
+```
+$ cargo build --release
+$ ./target/release/$TOOL $ARGS
+```
+
+### Available tools
 
 * `anagram <letters>`
+* `echo word | score`
