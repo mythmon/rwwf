@@ -47,8 +47,11 @@ fn main() {
     }
 
     if words_found.len() > 0 {
-        for (idx, word) in words_found.iter().enumerate() {
-            println!("{:>2}. {}", idx + 1, word);
+        let mut ws: Vec<String> = words_found.into_iter().collect();
+        // sort by word length
+        ws.sort_by(|a, b| a.len().cmp(&b.len()));
+        for word in ws {
+            println!("{}", word);
 
         }
     } else {
